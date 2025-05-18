@@ -12,7 +12,7 @@ The dataset used in the example is synthetically generated to emulate variables 
 
 ### Graph 1: Main Connected Component
 
-![Main component](./8db52ca2-35dc-4ef5-b408-84b6822bd572.png)
+<img src="https://github.com/user-attachments/assets/5986e636-ead7-4d83-8dbe-bfba005c9f53" width="650" height="550">
 
 - **Node border color** is determined by node degree (i.e., the number of edges connected to the variable).
 - **Edge transparency (alpha)** reflects the absolute value of the Pearson correlation coefficient.
@@ -20,15 +20,16 @@ The dataset used in the example is synthetically generated to emulate variables 
 
 The variable with the **highest degree** is placed centrally in the layout.
 
-### Graph 2: Component with Only Two Variables
+### Graph 2: Tertiary Structure
 
-![Second component](./c3dab194-7655-4b7a-9a81-420afbd6f8bc.png)
+<img src="https://github.com/user-attachments/assets/6015c5e5-acdc-4ad9-a25a-bb25e2aa6a65" width="550" height="450">
+
+An example of a minimal network with three nodes, where the most connected node appears centrally.
+
+### Graph 3: Component with Only Two Variables
+
+<img src="https://github.com/user-attachments/assets/0042bb7a-6bad-47bd-9883-7b6f8169aa7f" width="500" height="400">
 
 When the graph contains only two variables, **no colorbar is rendered**, as degree-based visual scaling is not applicable.
 
-### Graph 3: Tertiary Structure
-
-![Third component](./d39e38df-f1c9-4d61-aad0-4257c20bd83a.png)
-
-An example of a minimal network with three nodes, where the most connected node appears centrally.
 
