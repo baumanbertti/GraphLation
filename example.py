@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+from GraphLation import GraphLation
+
 # Reproducibility
 np.random.seed(0)
 n = 150
